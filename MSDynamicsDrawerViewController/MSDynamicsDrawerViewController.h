@@ -498,6 +498,10 @@ typedef NS_ENUM(NSInteger, MSDynamicsDrawerPaneState) {
  When the drawer is closed, returns `0`. When the drawer is fully opened, returns the appropriate `revealWidthForDirection:`.
  */
 - (CGFloat)currentRevealWidth;
+    
+    
+    
+- (void)paneViewDidUpdateFrame;
 
 ///----------------------
 /// @name Container Views
